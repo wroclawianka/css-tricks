@@ -5,6 +5,7 @@
 
 # CSS Tricks
 Repository for learning CSS related topics
+- Example of my project created with CSS Grid: [Loan Ratings App](https://wroclawianka.github.io/loan-ratings-app/)
 
 ## Courses:
 
