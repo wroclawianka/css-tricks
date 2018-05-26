@@ -18,4 +18,5 @@ Repository for learning CSS related topics
 ### Planned:
 
 <img src="https://raw.githubusercontent.com/wroclawianka/css-tricks/master/assets/img/flexbox.png" height="150px"/>
+
 - Flexbox by Wes Bos - [Flexbox.io](https://flexbox.io/)
