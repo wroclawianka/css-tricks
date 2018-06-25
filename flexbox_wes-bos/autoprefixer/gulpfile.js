@@ -1,3 +1,6 @@
+// instruction how to install guulp in video 13.
+// and automaticaly run autoprefixer!
+
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
 
