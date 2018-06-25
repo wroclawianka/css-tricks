@@ -47,6 +47,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-grow:5;
 }
 
+.box2 {
+  flex-basis:50px;  
+}
+
 .box4 {
   flex-basis:100px;  
 }
