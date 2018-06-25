@@ -35,8 +35,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   flex:1;
+  /* all items are taking the same piece of space */
+  /* all is about proportion of the space */
 }
 
 .box2 {
   flex:2;
+  /* overwriting default */
+  /* is saying: if enough space, box2 should take double space */
 }
