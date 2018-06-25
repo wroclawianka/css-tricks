@@ -35,12 +35,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   flex:1;
+  /* distrubute equaly */
+
+  /* display: 1 */
 }
 
 .box3 {
   order:1;
+  /* default is 0 */
+  /* order:-1; will put it on first place */
 }
 
 .box5 {
   order:2;
 }
+
+.box7 {
+  order:-2;
+}
+
+/* check selection of the things in browser to see what happen  */
