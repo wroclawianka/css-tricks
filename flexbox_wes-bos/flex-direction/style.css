@@ -32,10 +32,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  min-height:100vh;
+  height:100vh;
+  /* flex-wrap:wrap-reverse; */
   flex-wrap:wrap;
+  /* flex-direction: column; */
+  flex-direction: row;
 }
 
 .box {
-  width:33.3333333%;
+  width:calc(33.3333333% - 20px);
+  /* width: 50%; */
+  /* width: 10px; */
+  margin-right: 10px;
 }
+
