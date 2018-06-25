@@ -33,12 +33,34 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
+.box{
+  /* flex:1; pretty the same as: */
+  /* flex-grow: 1;
+  flex-shrink: 1;
+
+  flex-basis:  */
+}
+
+
 .box1 {
-  flex:10 5 400px;
+  /* flex-basis:400px; */
+
+  /* flex-grow: 1;  */
+  /* box 1 took extra space - if it is!*/
+  /* flex shrink is how do we do with not enough space: */
+  /* flex-shrink: 1; default - evenly divide */
+
+  /* flex-shrink: 10;  */
+  /* the second box is bigger! */
+  /* means that property set how much space should I give up! 10 more than box2*/
+
+  flex: 1 10 400px;
+  /* grow shrink and basis */
 }
 
 .box2 {
-  flex:1 1 400px;
+  flex-basis:400px;
+  flex-grow: 2; 
 }
 
 
